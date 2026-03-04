@@ -1,0 +1,360 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "coffea",
+  "evidence": {
+    "core_skills": [
+      "coffea-tests",
+      "coffea-user-guide",
+      "coffea-api-and-scripting",
+      "coffea-developer-guide",
+      "coffea-theory-and-methods",
+      "coffea-simulation-workflows"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/coffea-tests.md",
+      "skills/.evidence/coffea-user-guide.md",
+      "skills/.evidence/coffea-api-and-scripting.md",
+      "skills/.evidence/coffea-developer-guide.md",
+      "skills/.evidence/coffea-theory-and-methods.md",
+      "skills/.evidence/coffea-simulation-workflows.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/coffea-advanced-topics/SKILL.md",
+        "skills/coffea-advanced-topics/references/doc_map.md",
+        "skills/coffea-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/coffea-advanced-topics/SKILL.md",
+        "skills/coffea-advanced-topics/references/doc_map.md",
+        "skills/coffea-advanced-topics/references/source_map.md",
+        "skills/coffea-analysis-and-output/SKILL.md",
+        "skills/coffea-analysis-and-output/references/doc_map.md",
+        "skills/coffea-analysis-and-output/references/source_map.md",
+        "skills/coffea-api-and-scripting/SKILL.md",
+        "skills/coffea-build-and-install/SKILL.md",
+        "skills/coffea-build-and-install/references/doc_map.md",
+        "skills/coffea-build-and-install/references/source_map.md",
+        "skills/coffea-developer-guide/SKILL.md",
+        "skills/coffea-examples-and-tutorials/SKILL.md",
+        "skills/coffea-examples-and-tutorials/references/doc_map.md",
+        "skills/coffea-examples-and-tutorials/references/source_map.md",
+        "skills/coffea-getting-started/SKILL.md",
+        "skills/coffea-getting-started/references/doc_map.md",
+        "skills/coffea-getting-started/references/source_map.md",
+        "skills/coffea-index/SKILL.md",
+        "skills/coffea-simulation-workflows/SKILL.md",
+        "skills/coffea-tests/SKILL.md",
+        "skills/coffea-theory-and-methods/SKILL.md",
+        "skills/coffea-user-guide/SKILL.md"
+      ],
+      "deleted": [
+        "skills/coffea-analysis-and-output/SKILL.md",
+        "skills/coffea-analysis-and-output/references/doc_map.md",
+        "skills/coffea-analysis-and-output/references/source_map.md",
+        "skills/coffea-build-and-install/SKILL.md",
+        "skills/coffea-build-and-install/references/doc_map.md",
+        "skills/coffea-build-and-install/references/source_map.md",
+        "skills/coffea-examples-and-tutorials/SKILL.md",
+        "skills/coffea-examples-and-tutorials/references/doc_map.md",
+        "skills/coffea-examples-and-tutorials/references/source_map.md",
+        "skills/coffea-getting-started/SKILL.md",
+        "skills/coffea-getting-started/references/doc_map.md",
+        "skills/coffea-getting-started/references/source_map.md"
+      ],
+      "modified": [
+        "skills/coffea-api-and-scripting/SKILL.md",
+        "skills/coffea-developer-guide/SKILL.md",
+        "skills/coffea-index/SKILL.md",
+        "skills/coffea-simulation-workflows/SKILL.md",
+        "skills/coffea-tests/SKILL.md",
+        "skills/coffea-theory-and-methods/SKILL.md",
+        "skills/coffea-user-guide/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/coffea-advanced-topics/SKILL.md",
+        "skills/coffea-advanced-topics/references/doc_map.md",
+        "skills/coffea-advanced-topics/references/source_map.md",
+        "skills/coffea-api-and-scripting/SKILL.md",
+        "skills/coffea-api-and-scripting/references/doc_map.md",
+        "skills/coffea-api-and-scripting/references/source_map.md",
+        "skills/coffea-developer-guide/SKILL.md",
+        "skills/coffea-developer-guide/references/doc_map.md",
+        "skills/coffea-developer-guide/references/source_map.md",
+        "skills/coffea-index/SKILL.md",
+        "skills/coffea-simulation-workflows/SKILL.md",
+        "skills/coffea-simulation-workflows/references/doc_map.md",
+        "skills/coffea-simulation-workflows/references/source_map.md",
+        "skills/coffea-tests/SKILL.md",
+        "skills/coffea-tests/references/doc_map.md",
+        "skills/coffea-tests/references/source_map.md",
+        "skills/coffea-theory-and-methods/SKILL.md",
+        "skills/coffea-theory-and-methods/references/doc_map.md",
+        "skills/coffea-theory-and-methods/references/source_map.md",
+        "skills/coffea-user-guide/SKILL.md",
+        "skills/coffea-user-guide/references/doc_map.md",
+        "skills/coffea-user-guide/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/coffea-advanced-topics/SKILL.md",
+        "skills/coffea-advanced-topics/references/doc_map.md",
+        "skills/coffea-advanced-topics/references/source_map.md",
+        "skills/coffea-api-and-scripting/SKILL.md",
+        "skills/coffea-api-and-scripting/references/doc_map.md",
+        "skills/coffea-api-and-scripting/references/source_map.md",
+        "skills/coffea-developer-guide/SKILL.md",
+        "skills/coffea-developer-guide/references/doc_map.md",
+        "skills/coffea-developer-guide/references/source_map.md",
+        "skills/coffea-index/SKILL.md",
+        "skills/coffea-simulation-workflows/SKILL.md",
+        "skills/coffea-simulation-workflows/references/doc_map.md",
+        "skills/coffea-simulation-workflows/references/source_map.md",
+        "skills/coffea-tests/SKILL.md",
+        "skills/coffea-tests/references/doc_map.md",
+        "skills/coffea-tests/references/source_map.md",
+        "skills/coffea-theory-and-methods/SKILL.md",
+        "skills/coffea-theory-and-methods/references/doc_map.md",
+        "skills/coffea-theory-and-methods/references/source_map.md",
+        "skills/coffea-user-guide/SKILL.md",
+        "skills/coffea-user-guide/references/doc_map.md",
+        "skills/coffea-user-guide/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs/source"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Dry-run validated with explicit docs/tutorial/test/source roots.",
+      "Tutorial notebooks are symlinked under docs/source/notebooks to binder/*.ipynb.",
+      "Generator script had f-string syntax issues fixed for deterministic dry-run execution."
+    ],
+    "package_name": "coffea",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "binder",
+      "docs/source/notebooks"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/coffea-coffea",
+  "run_id": "compile_20260304T062531705495Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "coffea-analysis-and-output",
+      "coffea-api-and-scripting",
+      "coffea-build-and-install",
+      "coffea-developer-guide",
+      "coffea-examples-and-tutorials",
+      "coffea-getting-started",
+      "coffea-index",
+      "coffea-simulation-workflows",
+      "coffea-tests",
+      "coffea-theory-and-methods",
+      "coffea-user-guide"
+    ],
+    "core_skill_ids": [
+      "coffea-tests",
+      "coffea-user-guide",
+      "coffea-api-and-scripting",
+      "coffea-developer-guide",
+      "coffea-theory-and-methods",
+      "coffea-simulation-workflows"
+    ],
+    "deferred_gaps": [
+      "Notebook files (.ipynb) are not currently parsed as docs records by generator; revisit if tutorial coverage is thin.",
+      "Tutorial discovery is non-default for this layout (binder + docs/source/notebooks), so explicit dirs must remain pinned.",
+      "High-signal playbook enrichment is intentionally deferred to pass 2/3."
+    ],
+    "goal": "Generate deterministic docs-first coffea skills in pass 2, then audit and refine high-impact routing/playbooks in pass 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "routing by user intent (install, workflows, API, examples, troubleshooting)",
+          "docs-first escalation policy before source inspection",
+          "explicit links to tutorial and test roots"
+        ],
+        "reason": "Central router quality determines whether requests reach the correct topic skill quickly.",
+        "skill_id": "coffea-index",
+        "source_hints": [
+          "docs/source/index.md",
+          "docs/source/getting_started/index.md",
+          "docs/source/user_guide/index.md",
+          "skills/.compile_profile.json"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "installation and environment prerequisites",
+          "core coffea concepts and data model orientation",
+          "minimal first workflow from docs"
+        ],
+        "reason": "First-use setup and core concepts are high-frequency entry points for new users.",
+        "skill_id": "coffea-getting-started",
+        "source_hints": [
+          "README.rst",
+          "docs/source/getting_started/installation.md",
+          "docs/source/getting_started/concepts.md"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "dataset declaration and discovery flow",
+          "processor execution modes (local/distributed)",
+          "output and accumulator handling"
+        ],
+        "reason": "Execution patterns (processor + executors + datasets) are the main practical workflow in coffea.",
+        "skill_id": "coffea-simulation-workflows",
+        "source_hints": [
+          "docs/source/user_guide/datasets.md",
+          "docs/source/user_guide/executors.md",
+          "docs/source/user_guide/accumulators.md",
+          "src/coffea/processor"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "NanoEvents usage and schema selection",
+          "corrections and lookup tool application path",
+          "when to move from docs to source entry points"
+        ],
+        "reason": "API usage questions are frequent and require clear routing across NanoEvents, corrections, and utilities.",
+        "skill_id": "coffea-api-and-scripting",
+        "source_hints": [
+          "docs/source/user_guide/nanoevents.md",
+          "docs/source/user_guide/corrections.md",
+          "docs/source/api_reference.md",
+          "src/coffea/nanoevents",
+          "src/coffea/lookup_tools"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "canonical notebook progression",
+          "minimal runnable snippets derived from examples",
+          "mapping notebooks to relevant user-guide sections"
+        ],
+        "reason": "Notebook examples are the fastest path to reproducible usage patterns and should be routed prominently.",
+        "skill_id": "coffea-examples-and-tutorials",
+        "source_hints": [
+          "docs/source/examples.md",
+          "docs/source/notebooks",
+          "binder"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "test artifacts that provide behavior validation guidance",
+          "non-user-facing internals that should be de-emphasized",
+          "topic merge decision per generation rubric"
+        ],
+        "reason": "Generator currently groups several test-side docs; pass 3 should verify this topic is useful or merge into advanced topics.",
+        "skill_id": "coffea-tests",
+        "source_hints": [
+          "tests",
+          "sci-skills-generator/references/generation-rubric.md"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "coffea-user-guide",
+      "coffea-theory-and-methods",
+      "coffea-tests",
+      "coffea-simulation-workflows",
+      "coffea-developer-guide",
+      "coffea-api-and-scripting"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/coffea-coffea/skills/coffea-tests/references/source_map.md: broken path references: tests/test_processor.py::test_processorabc, tests/test_local_executors.py::test_nanoevents_analysis, tests/test_local_executors.py::test_preprocessing, tests/test_nanoevents.py::test_read_nanomc, tests/test_nanoevents.py::test_access_log",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/coffea-coffea/skills/coffea-user-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/coffea-coffea/skills/coffea-theory-and-methods/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/coffea-coffea/skills/coffea-tests/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/coffea-coffea/skills/coffea-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/coffea-coffea/skills/coffea-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/coffea-coffea/skills/coffea-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "skill plan target missing from generated skills/: coffea-getting-started",
+      "skill plan target missing from generated skills/: coffea-examples-and-tutorials"
+    ],
+    "index_skills": [
+      "coffea-index"
+    ],
+    "missing_planned_skills": [
+      "coffea-getting-started",
+      "coffea-examples-and-tutorials"
+    ],
+    "ok": false,
+    "planned_skill_ids": [
+      "coffea-index",
+      "coffea-getting-started",
+      "coffea-simulation-workflows",
+      "coffea-api-and-scripting",
+      "coffea-examples-and-tutorials",
+      "coffea-tests"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 8,
+    "source_inventory": {},
+    "source_links_total": 54,
+    "topic_skills": 7,
+    "warnings": []
+  }
+}
